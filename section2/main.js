@@ -2,6 +2,13 @@ angular.module('codecraft', [])
     .controller('PersonsCtrl', PersonsCtrl)
 
 function PersonsCtrl ($scope) {
+
+    $scope.selectedIndex = null;
+
+    $scope.selectPerson = function (index) {
+        $scope.selectedIndex = index;
+    };
+
     $scope.persons = [
         {
             "name": "Gregory Huffman",
@@ -907,3 +914,4 @@ function PersonsCtrl ($scope) {
 
     //return $scope.persons;
 }
+

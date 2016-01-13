@@ -15,7 +15,7 @@
     </div>
 </nav>
 
-<div class="container main-content" ng-controller="PersonsCtrl">
+<div class="container main-content" ng-controller="PersonsCtrl as persons">
     <table class="table table-bordered">
         <tr>
             <th>#</th>
@@ -23,7 +23,7 @@
             <th>Email</th>
             <th>Birthday</th>
         </tr>
-        <tr ng-repeat="person in persons">
+        <tr ng-repeat="person in persons" ng-style="{'background-color': $index == selectedIndex ? 'lightgray' : ''}" ng-click="selectPerson($index)">
             <td>{{ $index }}</td>
             <td>{{ person.name }}</td>
             <td>{{ person.email }}</td>
