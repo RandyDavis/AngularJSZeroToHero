@@ -28,9 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/section2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4814815">
-              <caret line="48" column="105" selection-start-line="48" selection-start-column="105" selection-end-line="48" selection-end-column="105" />
-              <caret line="52" column="106" selection-start-line="52" selection-start-column="106" selection-end-line="52" selection-end-column="106" />
+            <state vertical-scroll-proportion="0.7777778">
+              <caret line="66" column="84" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -40,9 +39,9 @@
         <entry file="file://$PROJECT_DIR$/section2/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <caret line="921" column="0" selection-start-line="921" selection-start-column="0" selection-end-line="921" selection-end-column="0" />
               <folding>
-                <element signature="e#609#33330#0" expanded="false" />
+                <element signature="e#531#33252#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -306,7 +305,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452740864021</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finish how to implement client side ordering">
+      <created>1452742586321</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1452742586321</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -353,7 +358,8 @@
     <MESSAGE value="finish handling clicks example" />
     <MESSAGE value="finish shwoing details when clicking a row...very cool!" />
     <MESSAGE value="finish how to implement client side searching" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish how to implement client side searching" />
+    <MESSAGE value="finish how to implement client side ordering" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish how to implement client side ordering" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -547,18 +553,17 @@
     <entry file="file://$PROJECT_DIR$/section2/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <caret line="921" column="0" selection-start-line="921" selection-start-column="0" selection-end-line="921" selection-end-column="0" />
           <folding>
-            <element signature="e#609#33330#0" expanded="false" />
+            <element signature="e#531#33252#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/section2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4814815">
-          <caret line="48" column="105" selection-start-line="48" selection-start-column="105" selection-end-line="48" selection-end-column="105" />
-          <caret line="52" column="106" selection-start-line="52" selection-start-column="106" selection-end-line="52" selection-end-column="106" />
+        <state vertical-scroll-proportion="0.7777778">
+          <caret line="66" column="84" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
           <folding />
         </state>
       </provider>

@@ -4,7 +4,6 @@ angular.module('codecraft', [])
 function PersonsCtrl ($scope) {
     $scope.search = "";
     $scope.order = "email";
-    $scope.selectedIndex = null;
     $scope.selectedPerson = null;
 
     $scope.sensitiveSearch = function (person) {
@@ -14,8 +13,7 @@ function PersonsCtrl ($scope) {
         return true;
     }
 
-    $scope.selectPerson = function (person, index) {
-        $scope.selectedIndex = index;
+    $scope.selectPerson = function (person) {
         $scope.selectedPerson = person;
     };
 
