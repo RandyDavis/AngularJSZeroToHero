@@ -2,9 +2,16 @@ angular.module('codecraft', [])
     .controller('PersonsCtrl', PersonsCtrl)
 
 function PersonsCtrl ($scope) {
-
+    $scope.search = "";
     $scope.selectedIndex = null;
     $scope.selectedPerson = null;
+
+    $scope.sensitiveSearch = function (person) {
+        if ($scope.search) {
+            return person.name.indexOf($scope.search) == 0 || person.email.indexOf($scope.search) == 0;
+        }
+        return true;
+    }
 
     $scope.selectPerson = function (person, index) {
         $scope.selectedIndex = index;
