@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3aa85db-bfe8-466a-b1d1-be8ee2f156bf" name="Default" comment="" />
+    <list default="true" id="c3aa85db-bfe8-466a-b1d1-be8ee2f156bf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/section2/index.html" afterPath="$PROJECT_DIR$/section2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/section2/main.js" afterPath="$PROJECT_DIR$/section2/main.js" />
+    </list>
     <ignored path="angularJSZeroToHero.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/section2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7777778">
-              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.8888889">
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -35,8 +39,10 @@
         <entry file="file://$PROJECT_DIR$/section2/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding>
+                <element signature="e#338#33059#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +97,8 @@
         <option value="$PROJECT_DIR$/section1/lesson5/index.html" />
         <option value="$PROJECT_DIR$/section1/lesson6/index.html" />
         <option value="$PROJECT_DIR$/section1/lesson7/index.html" />
-        <option value="$PROJECT_DIR$/section2/main.js" />
         <option value="$PROJECT_DIR$/section2/main.css" />
+        <option value="$PROJECT_DIR$/section2/main.js" />
         <option value="$PROJECT_DIR$/section2/index.html" />
       </list>
     </option>
@@ -281,7 +287,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452662753669</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finish handling clicks example">
+      <created>1452667050445</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1452667050445</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -325,7 +337,8 @@
     <MESSAGE value="complete form validation using Angular Auto Validate and add User feedback with Ladda buttons" />
     <MESSAGE value="place all lesson 1-7 directories in section1 folder and create section folder&#10;&#10;" />
     <MESSAGE value="finish looping example to create table of data" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish looping example to create table of data" />
+    <MESSAGE value="finish handling clicks example" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish handling clicks example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -503,16 +516,8 @@
         <state vertical-scroll-proportion="0.5555556">
           <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
           <folding>
-            <marker date="1452660868000" expanded="true" signature="825:999" placeholder="{...}" />
+            <marker date="1452663018000" expanded="true" signature="825:999" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/section2/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -524,10 +529,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/section2/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#338#33059#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/section2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7777778">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.8888889">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
           <folding />
         </state>
       </provider>
