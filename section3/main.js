@@ -920,6 +920,6 @@ function PersonsCtrl ($scope) {
         }
     ]
 
-    //return $scope.persons;
+
 }
 
