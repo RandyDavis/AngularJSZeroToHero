@@ -1,4 +1,4 @@
-angular.module('codecraft', ['ngResource'])
+angular.module('codecraft', ['ngResource', 'infinite-scroll'])
 		.controller('PersonListCtrl', PersonListCtrl)
 		.controller('PersonDetailCtrl', PersonDetailCtrl)
 		.service('ContactService', ContactService)
@@ -26,6 +26,10 @@ function PersonListCtrl ($scope, ContactService) {
 			return person.name.indexOf($scope.search) == 0 || person.email.indexOf($scope.search) == 0;
 		}
 		return true;
+	}
+
+	$scope.loadMore = function () {
+		console.log("Load More!!!");
 	}
 
 }
