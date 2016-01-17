@@ -2,6 +2,10 @@ angular.module('codecraft', ['ngResource'])
 		.controller('PersonListCtrl', PersonListCtrl)
 		.controller('PersonDetailCtrl', PersonDetailCtrl)
 		.service('ContactService', ContactService)
+		.config(function ($httpProvider, $resourceProvider) {
+			$httpProvider.defaults.headers.common['Authorization'] = 'Token 71ca1541c6e7c87837bfa7d6aeb9ede13096ec83';
+			$resourceProvider.defaults.stripTrailingSlashes = false;
+		})
 
 function PersonDetailCtrl ($scope, ContactService) {
 	$scope.contacts = ContactService;
