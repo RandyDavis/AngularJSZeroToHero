@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3aa85db-bfe8-466a-b1d1-be8ee2f156bf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/angular-resource/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/angular-resource/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/angular-resource/angular-resource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/angular-resource/angular-resource.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/angular-resource/angular-resource.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/angular-resource/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/angular-resource/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/angular-resource/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section6/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section6/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section6/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/section5/index.html" afterPath="$PROJECT_DIR$/section5/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/section5/main.js" afterPath="$PROJECT_DIR$/section5/main.js" />
     </list>
     <ignored path="angularJSZeroToHero.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,20 +35,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/section5/index.html">
+        <entry file="file://$PROJECT_DIR$/section6/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5">
-              <caret line="53" column="268" selection-start-line="53" selection-start-column="268" selection-end-line="53" selection-end-column="268" />
+            <state vertical-scroll-proportion="0.21428572">
+              <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/section5/main.js">
+        <entry file="file://$PROJECT_DIR$/section6/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -99,6 +108,8 @@
         <option value="$PROJECT_DIR$/section3/main.js" />
         <option value="$PROJECT_DIR$/section5/main.js" />
         <option value="$PROJECT_DIR$/section5/index.html" />
+        <option value="$PROJECT_DIR$/section6/index.html" />
+        <option value="$PROJECT_DIR$/section6/main.js" />
       </list>
     </option>
   </component>
@@ -167,6 +178,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="section6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularJSZeroToHero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJSZeroToHero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="section5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -181,7 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="section3" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -206,10 +231,11 @@
       <recent name="C:\Users\davirand\Development\Tutorials\udemy\angularJSZeroToHero\lesson1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/section6" />
       <recent name="$PROJECT_DIR$/section5" />
       <recent name="$PROJECT_DIR$/section4" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="C:\Users\davirand\Development\Tutorials\udemy\angularJSZeroToHero" />
     </key>
   </component>
   <component name="RunManager">
@@ -368,7 +394,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452986813533</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="finish sharing data between controllers using Services, creating our first service, and consuming our service in our controllers">
+      <created>1452989027824</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1452989027824</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -422,7 +454,8 @@
     <MESSAGE value="finish understanding scope: Root Scope section" />
     <MESSAGE value="finish understanding scope: The Dot Notation section" />
     <MESSAGE value="finish break out list application into two controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish break out list application into two controllers" />
+    <MESSAGE value="finish sharing data between controllers using Services, creating our first service, and consuming our service in our controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish sharing data between controllers using Services, creating our first service, and consuming our service in our controllers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -696,9 +729,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/section5/main.js">
+    <entry file="file://$PROJECT_DIR$/libs/angular/angular.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/angular-resource/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section5/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5045872">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
@@ -706,8 +755,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/section5/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5">
-          <caret line="53" column="268" selection-start-line="53" selection-start-column="268" selection-end-line="53" selection-end-column="268" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="31" column="74" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section6/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21428572">
+          <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
           <folding />
         </state>
       </provider>
