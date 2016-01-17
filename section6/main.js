@@ -30,6 +30,7 @@ function PersonListCtrl ($scope, ContactService) {
 
 	$scope.loadMore = function () {
 		console.log("Load More!!!");
+		$scope.contacts.loadMore();
 	}
 
 }
@@ -45,12 +46,30 @@ function ContactService (Contact) {
 		selectedPerson: null,
 		persons: [],
 		'loadContacts': function () {
-			Contact.get(function (data) {
-				console.log(data);
-				angular.forEach(data.results, function (person) {
-					self.persons.push(new Contact(person));
-				})
-			});
+			if (self.hasMore && !self.isLoading) {
+				self.isLoading = true;
+
+				var params = {
+					'page': self.page
+				}
+				Contact.get(params, function (data) {
+					console.log(data);
+					angular.forEach(data.results, function (person) {
+						self.persons.push(new Contact(person));
+					});
+
+					if (!data.next) {
+						self.hasMore = false;
+					}
+					self.isLoading = false;
+				});
+			}
+		},
+		'loadMore': function () {
+			if (self.hasMore && !self.isLoading) {
+				self.page +=1;
+				self.loadContacts();
+			}
 		}
 	};
 
