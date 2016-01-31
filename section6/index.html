@@ -57,18 +57,15 @@
 							<td>{{ person.email }}</td>
 							<td>{{ person.birthdate | date:"longDate"}}</td>
 						</tr>
-						<tr ng-show="contacts.persons.length == 0">
-							<td colspan="4">
-								<div class="alert alert-warning">
-									<p class="text-center">No results found for search term "{{search}}".</p>
-								</div>
-							</td>
-						</tr>
 					</table>
+					<div ng-show="contacts.persons.length == 0 && !contacts.isLoading">
+						<div class="alert alert-warning">
+							<p class="text-center">No results found for search term "{{search}}".</p>
+						</div>
+					</div>
 					<div class="spinner" ng-show="contacts.isLoading">
 						<span us-spinner="{radius:30, width:10, length: 25, lines: 9}"></span>
 						<p>Loading...</p>
-
 					</div>
 				</div>
 			</div>
