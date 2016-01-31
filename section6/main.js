@@ -1,10 +1,13 @@
-angular.module('codecraft', ['ngResource', 'infinite-scroll', 'angularSpinner'])
+angular.module('codecraft', ['ngResource', 'infinite-scroll', 'angularSpinner', 'jcs-autoValidate', 'angular-ladda'])
 		.controller('PersonListCtrl', PersonListCtrl)
 		.controller('PersonDetailCtrl', PersonDetailCtrl)
 		.service('ContactService', ContactService)
-		.config(function ($httpProvider, $resourceProvider) {
+		.config(function ($httpProvider, $resourceProvider, laddaProvider) {
 			$httpProvider.defaults.headers.common['Authorization'] = 'Token 71ca1541c6e7c87837bfa7d6aeb9ede13096ec83';
 			$resourceProvider.defaults.stripTrailingSlashes = false;
+			laddaProvider.setOption({
+				style:'expand-right'
+			})
 		})
 		.factory("Contact", Contact)
 
