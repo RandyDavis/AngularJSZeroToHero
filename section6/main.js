@@ -1,4 +1,4 @@
-angular.module('codecraft', ['ngResource', 'infinite-scroll'])
+angular.module('codecraft', ['ngResource', 'infinite-scroll', 'angularSpinner'])
 		.controller('PersonListCtrl', PersonListCtrl)
 		.controller('PersonDetailCtrl', PersonDetailCtrl)
 		.service('ContactService', ContactService)

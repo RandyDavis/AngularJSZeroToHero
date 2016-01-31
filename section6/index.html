@@ -60,11 +60,16 @@
 						<tr ng-show="contacts.persons.length == 0">
 							<td colspan="4">
 								<div class="alert alert-warning">
-									<p class="text-center">No results found for "{{search}}".</p>
+									<p class="text-center">No results found for search term "{{search}}".</p>
 								</div>
 							</td>
 						</tr>
 					</table>
+					<div class="spinner" ng-show="contacts.isLoading">
+						<span us-spinner="{radius:30, width:10, length: 25, lines: 9}"></span>
+						<p>Loading...</p>
+
+					</div>
 				</div>
 			</div>
 		</div>
@@ -98,6 +103,8 @@
 <script src="../libs/angular/angular.min.js"></script>
 <script src="../libs/angular-resource/angular-resource.min.js"></script>
 <script src="../libs/ngInfiniteScroll/build/ng-infinite-scroll.min.js"></script>
+<script src="../libs/spin.js/spin.js"></script>
+<script src="../libs/angular-spinner/angular-spinner.min.js"></script>
 <script src="main.js"></script>
 </body>
 </html>
