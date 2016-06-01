@@ -15,8 +15,11 @@ function Contact ($resource) {
 	return $resource("https://codecraftpro.com/api/samples/v1/contact/:id/");
 }
 
-function PersonDetailCtrl ($scope, ContactService) {
+function PersonDetailCtrl ($scope, ContactService, Save) {
 	$scope.contacts = ContactService;
+	$scope.save = function () {
+		$scope.contacts.updateContact($scope.contacts.selectedPerson);
+	};
 }
 
 function PersonListCtrl ($scope, ContactService) {
@@ -95,9 +98,12 @@ function ContactService (Contact) {
 				self.page +=1;
 				self.loadContacts();
 			}
+		},
+		'updateContact': function (person) {
+			console.log("Service called update");
 		}
 	};
-
+	
 	self.loadContacts();
 
 	return self;
